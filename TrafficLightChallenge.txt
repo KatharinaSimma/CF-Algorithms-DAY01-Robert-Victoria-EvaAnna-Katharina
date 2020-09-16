@@ -1,0 +1,25 @@
+Start Trafficmanagementsystem
+
+INPUT dateofweek
+    if Sat or Sun
+        execute "shorterIntervalls" // because there is more humans
+    if else
+        exceute "normalIntervalls"
+    INPUT time
+        if morning
+            execute "longerGreenPhaseINtotheCity"
+        if evening
+            execute "longerGreenPhaseOUToftheCity"
+        else
+            exceute "normalIntervalls"
+
+IF Fussballspiel (!IMPORTANT)
+    execute "greenWave"
+
+INPUT speedofcars
+    if high
+        execute "greenWave"
+
+OUTPUT FluidTraffic
+
+
