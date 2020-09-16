@@ -1,0 +1,17 @@
+INPUT Start game;
+
+ChooseRandomNumber();
+
+INPUT Number;
+WHILE(InputNumber is not correct)
+	IF 	InputNumber < RandomNumber 
+		OUTPUT 'My number is higher!Guess again!'
+
+	IF 
+		InputNumber > RandomNumber
+		OUTPUT 'My Number is smaller!Guess again!'
+
+	ELSE
+		InputNumber = RandomNumber 
+		OUTPUT 'Congrats!'
+END WHILE
