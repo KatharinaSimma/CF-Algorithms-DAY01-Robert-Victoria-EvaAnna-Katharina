@@ -1,0 +1,12 @@
+{1, 3, 5, 4, 5, 9, 6, 1, 2, 6, 5, 4, 4, 9, 7 }
+
+FOR each element in the list
+    ask your right neibhor are you smaller than me?
+    IF no: do nothing
+    IF equal: do nothing
+    IF yes: switch places
+        counter +1
+    
+    
+    IF counter > 0 REPEAT LOOP
+    IF counter = 0 END LOOP
