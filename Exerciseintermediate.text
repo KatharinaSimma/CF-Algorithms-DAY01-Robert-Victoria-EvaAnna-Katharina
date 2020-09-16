@@ -1,0 +1,11 @@
+INPUT
+	number of seconds X;
+	divide X/60= minutes + remainderseconds;
+	(minutes)/60= hours + remainderminutes;
+	(hours)/24= days + remainderhours;
+	(days)/7= weeks + remainderdays;
+OUTPUT
+	weeks + remiander days + remainder hours + remainder minutes + remainder seconds;
+
+
+
